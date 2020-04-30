@@ -64,6 +64,7 @@ public class NetflixSearch {
 	    System.out.println("Movie or Show?");
 	    String input = scan.nextLine().toLowerCase();
 	    scan.close();
+	    
 	    switch (input) {
 	    case "movie":
 	    	return input;
